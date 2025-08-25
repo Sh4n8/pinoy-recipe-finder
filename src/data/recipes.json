@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Adobo",
+    "image": "/assets/adobo.jpg",
+    "description": "Savory-sour Filipino classic braised in soy and vinegar.",
+    "ingredients": ["1 kg chicken", "1/2 cup soy sauce", "1/2 cup vinegar", "6 cloves garlic", "2 bay leaves", "pepper"],
+    "instructions": [
+      "Marinate chicken in soy, vinegar, garlic, pepper 30 mins.",
+      "Sear chicken; add marinade, bay leaves; simmer until tender.",
+      "Reduce sauce to desired thickness. Serve with rice."
+    ]
+  }
+]
