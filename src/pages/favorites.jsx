@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { useFavorites } from "../store/FavoritesContext.jsx";
-import data from "../data/recipes.json";
+import data from "../data/recipe.json";
 import RecipeCard from "../components/RecipeCard.jsx";
 import { Link } from "react-router-dom";
 

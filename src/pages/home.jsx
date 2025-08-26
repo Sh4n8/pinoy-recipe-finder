@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import SearchBar from "../components/SearchBar.jsx";
 import RecipeCard from "../components/RecipeCard.jsx";
-import data from "../data/recipes.json"; 
+import data from "../data/recipe.json"; 
 
 export default function Home() {
   const [query, setQuery] = useState("");

@@ -1,14 +1,22 @@
 import { useMemo } from "react";
 import { useParams } from "react-router-dom";
-import data from "../data/recipes.json";
+import data from "../data/recipe.json";
 import { useFavorites } from "../store/FavoritesContext.jsx";
 
 export default function RecipeDetail() {
   const { id } = useParams();
   const numericId = Number(id);
+
+  const recipes = Array.isArray(data) ? data : data?.recipes || [];
+  const recipesWithImages = recipes.map((r) => ({
+    ...r,
+    image: r.image
+      ? new URL(`../assets/${r.image}`, import.meta.url).href
+      : null,
+  }));
+
   const recipe = useMemo(() => {
-    const list = Array.isArray(data) ? data : data?.recipes || [];
-    return list.find((r) => Number(r.id) === numericId);
+    return recipesWithImages.find((r) => Number(r.id) === numericId);
   }, [numericId]);
 
   const { isFav, toggle } = useFavorites();
@@ -16,7 +24,7 @@ export default function RecipeDetail() {
   if (!recipe) {
     return (
       <div className="alert alert-warning">
-        Recipe not found. 
+        Recipe not found.
       </div>
     );
   }
