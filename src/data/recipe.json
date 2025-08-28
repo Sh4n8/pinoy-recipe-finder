@@ -58,5 +58,161 @@
       "Pour water; simmer until chicken is tender.",
       "Add papaya and chili leaves; cook 5 mins."
     ]
+  },
+  {
+    "id": 6,
+    "name": "Lechon Kawali",
+    "image": "lechonkawali.jpg",
+    "description": "Crispy deep-fried pork belly, best with liver sauce.",
+    "ingredients": ["1 kg pork belly", "2 tbsp salt", "pepper", "oil for frying"],
+    "instructions": [
+      "Boil pork belly with salt until tender.",
+      "Let cool, then deep fry until golden and crispy.",
+      "Serve with liver sauce."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Laing",
+    "image": "laing.jpg",
+    "description": "Taro leaves cooked in coconut milk with chili and shrimp paste.",
+    "ingredients": ["200g dried taro leaves", "2 cups coconut milk", "shrimp paste", "2 chili peppers", "garlic", "onion"],
+    "instructions": [
+      "Simmer coconut milk with garlic, onion, shrimp paste.",
+      "Add taro leaves and chili; simmer until tender.",
+      "Cook until sauce thickens."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Pinakbet",
+    "image": "pinakbet.jpg",
+    "description": "Mixed vegetables stewed in bagoong with pork.",
+    "ingredients": ["100g pork belly", "ampalaya", "eggplant", "okra", "string beans", "tomatoes", "bagoong"],
+    "instructions": [
+      "Sauté pork with garlic and onion.",
+      "Add vegetables and bagoong; simmer until cooked.",
+      "Serve hot."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Lumpiang Shanghai",
+    "image": "lumpia.jpg",
+    "description": "Crispy spring rolls filled with pork and vegetables.",
+    "ingredients": ["500g ground pork", "1 carrot", "1 onion", "1 egg", "lumpia wrappers", "oil for frying"],
+    "instructions": [
+      "Mix pork, carrot, onion, egg into filling.",
+      "Wrap in lumpia wrappers.",
+      "Deep fry until golden brown."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Halo-Halo",
+    "image": "halohalo.jpg",
+    "description": "Refreshing shaved ice dessert with mixed sweets and milk.",
+    "ingredients": ["shaved ice", "evaporated milk", "ube halaya", "leche flan", "sweetened beans", "nata de coco", "sago"],
+    "instructions": [
+      "Layer ingredients in a tall glass.",
+      "Top with shaved ice and evaporated milk.",
+      "Add ube halaya and leche flan."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Bicol Express",
+    "image": "bicolexpress.jpg",
+    "description": "Spicy pork dish simmered in coconut milk and chilies.",
+    "ingredients": ["500g pork belly", "2 cups coconut milk", "chilies", "shrimp paste", "garlic", "onion"],
+    "instructions": [
+      "Sauté garlic, onion, and pork.",
+      "Add coconut milk, shrimp paste, and chilies.",
+      "Simmer until pork is tender."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Arroz Caldo",
+    "image": "arrozcaldo.jpg",
+    "description": "Comforting rice porridge with chicken and ginger.",
+    "ingredients": ["1 cup rice", "500g chicken", "1 thumb ginger", "6 cups chicken broth", "garlic", "scallions"],
+    "instructions": [
+      "Sauté garlic, onion, and ginger.",
+      "Add chicken, rice, and broth; simmer until porridge consistency.",
+      "Top with garlic chips and scallions."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Tapsilog",
+    "image": "tapsilog.jpg",
+    "description": "Beef tapa with garlic fried rice and fried egg.",
+    "ingredients": ["250g beef tapa", "2 cups garlic rice", "2 eggs"],
+    "instructions": [
+      "Cook beef tapa until tender.",
+      "Fry eggs sunny side up.",
+      "Serve with garlic rice."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Turon",
+    "image": "turon.jpg",
+    "description": "Sweet banana spring rolls with caramelized sugar.",
+    "ingredients": ["saba bananas", "jackfruit strips", "sugar", "lumpia wrappers", "oil for frying"],
+    "instructions": [
+      "Wrap banana and jackfruit in lumpia wrapper with sugar.",
+      "Deep fry until golden brown.",
+      "Coat with caramelized sugar."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Kaldereta",
+    "image": "kaldereta.jpg",
+    "description": "Tomato-based beef stew with liver spread and vegetables.",
+    "ingredients": ["1 kg beef", "1 can tomato sauce", "2 tbsp liver spread", "potatoes", "carrots", "bell peppers"],
+    "instructions": [
+      "Brown beef; add tomato sauce and liver spread.",
+      "Simmer until beef is tender.",
+      "Add vegetables and cook until done."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Sisig",
+    "image": "sisig.jpg",
+    "description": "Sizzling pork dish with onions, chilies, and calamansi.",
+    "ingredients": ["500g pork face/ears", "1 onion", "chilies", "calamansi", "mayonnaise"],
+    "instructions": [
+      "Boil and grill pork parts, then chop finely.",
+      "Mix with onion, chilies, and calamansi juice.",
+      "Serve on sizzling plate with mayonnaise."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Bibingka",
+    "image": "bibingka.jpg",
+    "description": "Rice cake baked in banana leaves, topped with cheese and salted egg.",
+    "ingredients": ["1 cup rice flour", "1 cup coconut milk", "1 egg", "cheese", "salted egg"],
+    "instructions": [
+      "Mix rice flour, coconut milk, and egg into batter.",
+      "Pour into lined pan; top with cheese and salted egg.",
+      "Bake until golden brown."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Palabok",
+    "image": "palabok.jpg",
+    "description": "Rice noodles topped with shrimp sauce, chicharon, and egg.",
+    "ingredients": ["rice noodles", "shrimp", "annatto powder", "garlic", "pork chicharon", "hard-boiled egg"],
+    "instructions": [
+      "Cook rice noodles and set aside.",
+      "Make shrimp sauce with annatto and garlic.",
+      "Top noodles with sauce, chicharon, and egg."
+    ]
   }
 ]
