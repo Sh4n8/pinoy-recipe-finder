@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { useParams } from "react-router-dom";
-import data from "../data/recipe.json"; // Make sure it's .json
+import data from "../data/recipe.json";
 import { useFavorites } from "../store/FavoritesContext.jsx";
 
 export default function RecipeDetail() {
@@ -9,11 +9,10 @@ export default function RecipeDetail() {
 
   const recipes = Array.isArray(data) ? data : data?.recipes || [];
 
+  
   const recipesWithImages = recipes.map((r) => ({
     ...r,
-    image: r.image
-      ? new URL(`../assets/${r.image}`, import.meta.url).href
-      : null,
+    image: r.image ? `/assets/${r.image}` : null,
   }));
 
   const recipe = useMemo(() => {
