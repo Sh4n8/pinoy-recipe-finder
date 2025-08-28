@@ -214,5 +214,29 @@
       "Make shrimp sauce with annatto and garlic.",
       "Top noodles with sauce, chicharon, and egg."
     ]
+  },
+  {
+    "id": 19,
+    "name": "Bulalo",
+    "image": "bulalo.jpg",
+    "description": "Beef shank soup with bone marrow, corn, and vegetables.",
+    "ingredients": ["1 kg beef shank", "2 corn cobs", "1/4 cabbage", "pechay", "onion", "fish sauce"],
+    "instructions": [
+      "Boil beef shank for hours until tender.",
+      "Add corn, onion, and cabbage.",
+      "Season with fish sauce and serve hot."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Ginataang Manok",
+    "image": "ginataangmanok.jpg",
+    "description": "Chicken stew in coconut milk with papaya and chili.",
+    "ingredients": ["1 kg chicken", "2 cups coconut milk", "1 green papaya", "ginger", "onion", "garlic", "green chili"],
+    "instructions": [
+      "Sauté ginger, garlic, and onion; add chicken.",
+      "Pour coconut milk and simmer.",
+      "Add papaya and chili; cook until tender."
+    ]
   }
 ]
